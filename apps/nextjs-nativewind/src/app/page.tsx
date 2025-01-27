@@ -53,6 +53,7 @@ import {
   DropdownMenuTrigger,
 } from '~/components/ui/dropdown-menu';
 import { HoverCard, HoverCardContent, HoverCardTrigger } from '~/components/ui/hover-card';
+import { Input } from '~/components/ui/input';
 import { Popover, PopoverContent, PopoverTrigger } from '~/components/ui/popover';
 import { Progress } from '~/components/ui/progress';
 import {
@@ -95,7 +96,7 @@ export default function Home() {
   return (
     <div className='py-24 px-4 min-h-svh'>
       <main className='mx-auto max-w-3xl w-full flex flex-col gap-12 '>
-        <Typography.H1>@rn-primitives</Typography.H1>
+        <Typography.H1>@rnr-method</Typography.H1>
         <Typography.P className='font-medium'>
           Styled with{' '}
           <a className='hover:underline' href='https://www.nativewind.dev/v4/overview'>
@@ -126,6 +127,7 @@ export default function Home() {
         <ToggleExample />
         <ToggleGroupExample />
         <TooltipExample />
+        <InputExample />
       </main>
     </div>
   );
@@ -440,5 +442,14 @@ function TableExample() {
         </TableRow>
       </TableFooter>
     </Table>
+  );
+}
+
+function InputExample() {
+  return (
+    <>
+      <Text>Input</Text>
+      <Input />
+    </>
   );
 }

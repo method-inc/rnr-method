@@ -1,7 +1,7 @@
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
-import { useAugmentedRef, useIsomorphicLayoutEffect } from '@rn-primitives/hooks';
-import * as Slot from '@rn-primitives/slot';
-import { EmptyGestureResponderEvent } from '@rn-primitives/utils';
+import { useAugmentedRef, useIsomorphicLayoutEffect } from '@rnr-method/hooks';
+import * as Slot from '@rnr-method/slot';
+import { EmptyGestureResponderEvent } from '@rnr-method/utils';
 import * as React from 'react';
 import { GestureResponderEvent, Pressable, View } from 'react-native';
 import type {
@@ -141,7 +141,7 @@ const Trigger = React.forwardRef<TriggerRef, TriggerProps>(
       <NavigationMenu.Trigger disabled={disabled ?? undefined} asChild>
         <Component
           ref={ref}
-          // @ts-expect-error web only
+          // @ts-ignore web only
           onKeyDown={onKeyDown}
           onPress={onPress}
           {...props}
@@ -217,7 +217,7 @@ const Link = React.forwardRef<LinkRef, LinkProps>(
         <Component
           ref={ref}
           role='link'
-          // @ts-expect-error web only
+          // @ts-ignore web only
           onKeyDown={onKeyDown}
           onPress={onPress}
           {...props}

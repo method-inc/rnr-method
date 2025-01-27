@@ -1,5 +1,5 @@
 import * as Switch from '@radix-ui/react-switch';
-import * as Slot from '@rn-primitives/slot';
+import * as Slot from '@rnr-method/slot';
 import * as React from 'react';
 import { Pressable, View, type GestureResponderEvent } from 'react-native';
 import type { RootProps, RootRef, ThumbProps, ThumbRef } from './types';
@@ -36,7 +36,7 @@ const Root = React.forwardRef<RootRef, RootProps>(
           ref={ref}
           disabled={disabled}
           onPress={onPress}
-          // @ts-expect-error Web only
+          // @ts-ignore Web only
           onKeyDown={onKeyDown}
           {...props}
         />

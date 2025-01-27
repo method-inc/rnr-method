@@ -1,8 +1,20 @@
 {
-  "name": "@rn-primitives/accordion",
+  "name": "@method-inc/accordion",
   "version": "1.1.0",
   "description": "Primitive accordion",
   "license": "MIT",
+  "author": "Method",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/method-inc/rnr-method.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/method-inc/rnr-method/issues"
+  },
+  "homepage": "https://github.com/method-inc/rnr-method#readme",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -33,9 +45,9 @@
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.0",
-    "@rn-primitives/hooks": "workspace:*",
-    "@rn-primitives/slot": "workspace:*",
-    "@rn-primitives/types": "workspace:*"
+    "@rnr-method/hooks": "workspace:*",
+    "@rnr-method/slot": "workspace:*",
+    "@rnr-method/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

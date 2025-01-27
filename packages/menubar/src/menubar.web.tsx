@@ -3,9 +3,9 @@ import {
   useAugmentedRef,
   useControllableState,
   useIsomorphicLayoutEffect,
-} from '@rn-primitives/hooks';
-import * as Slot from '@rn-primitives/slot';
-import { EmptyGestureResponderEvent } from '@rn-primitives/utils';
+} from '@rnr-method/hooks';
+import * as Slot from '@rnr-method/slot';
+import { EmptyGestureResponderEvent } from '@rnr-method/utils';
 import * as React from 'react';
 import { GestureResponderEvent, Pressable, Text, View } from 'react-native';
 import type {
@@ -261,7 +261,7 @@ const Item = React.forwardRef<ItemRef, ItemProps>(
       >
         <Component
           ref={ref}
-          // @ts-expect-error web only
+          // @ts-ignore web only
           onKeyDown={onKeyDown}
           onPress={onPress}
           {...props}
@@ -340,7 +340,7 @@ const CheckboxItem = React.forwardRef<CheckboxItemRef, CheckboxItemProps>(
       >
         <Component
           ref={ref}
-          // @ts-expect-error web only
+          // @ts-ignore web only
           onKeyDown={onKeyDown}
           onPress={onPress}
           role='button'
@@ -428,7 +428,7 @@ const RadioItem = React.forwardRef<RadioItemRef, RadioItemProps>(
       >
         <Component
           ref={ref}
-          // @ts-expect-error web only
+          // @ts-ignore web only
           onKeyDown={onKeyDown}
           onPress={onPress}
           {...props}

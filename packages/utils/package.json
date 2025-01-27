@@ -1,5 +1,5 @@
 {
-  "name": "@rn-primitives/utils",
+  "name": "@rnr-method/utils",
   "version": "1.1.0",
   "description": "Primitive types",
   "license": "MIT",
@@ -30,7 +30,9 @@
     "@types/react": "~18.3.12",
     "react": "18.3.1",
     "react-native": "0.76.3",
-    "tsup": "^8.1.0"
+    "tsup": "^8.1.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^1.14.0"
   },
   "peerDependencies": {
     "react": "*",
