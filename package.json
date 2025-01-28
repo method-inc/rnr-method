@@ -1,5 +1,5 @@
 {
-  "name": "@rnr-method/monorepo",
+  "name": "@method-inc/monorepo",
   "private": true,
   "scripts": {
     "dev": "turbo dev --concurrency=34",

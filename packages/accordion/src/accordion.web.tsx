@@ -3,8 +3,8 @@ import {
   useAugmentedRef,
   useControllableState,
   useIsomorphicLayoutEffect,
-} from '@rnr-method/hooks';
-import * as Slot from '@rnr-method/slot';
+} from '@method-inc/hooks';
+import * as Slot from '@method-inc/slot';
 import * as React from 'react';
 import { Pressable, View } from 'react-native';
 import type {

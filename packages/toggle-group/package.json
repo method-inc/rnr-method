@@ -1,5 +1,5 @@
 {
-  "name": "@rnr-method/toggle-group",
+  "name": "@method-inc/toggle-group",
   "version": "1.1.0",
   "description": "Primitive toggle group",
   "license": "MIT",
@@ -33,9 +33,9 @@
   },
   "dependencies": {
     "@radix-ui/react-toggle-group": "^1.1.0",
-    "@rnr-method/utils": "workspace:*",
-    "@rnr-method/slot": "workspace:*",
-    "@rnr-method/types": "workspace:*"
+    "@method-inc/utils": "workspace:*",
+    "@method-inc/slot": "workspace:*",
+    "@method-inc/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

@@ -1,4 +1,4 @@
-import * as Toolbar from '@rnr-method/toolbar';
+import * as Toolbar from '@method-inc/toolbar';
 import * as React from 'react';
 import { Text, View } from 'react-native';
 import { AlignCenter } from '~/lib/icons/AlignCenter';

@@ -7,7 +7,7 @@ import {
   SlottableViewProps,
   TextRef,
   ViewRef,
-} from '@rnr-method/types';
+} from '@method-inc/types';
 
 type RootProps = SlottableViewProps & {
   value: string | undefined;

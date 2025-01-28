@@ -1,4 +1,4 @@
-import * as ContextMenuPrimitive from '@rnr-method/context-menu';
+import * as ContextMenuPrimitive from '@method-inc/context-menu';
 import * as React from 'react';
 import { Platform, StyleProp, StyleSheet, Text, View, ViewStyle } from 'react-native';
 import { Check } from '~/lib/icons/Check';

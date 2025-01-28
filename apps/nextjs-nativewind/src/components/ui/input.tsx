@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import * as InputPrimitive from '@rnr-method/input';
+import * as InputPrimitive from '@method-inc/input';
 
 const Input = () => {
   const [value, setValue] = React.useState('');

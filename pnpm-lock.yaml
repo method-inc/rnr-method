@@ -49,100 +49,100 @@ importers:
       '@radix-ui/react-slot':
         specifier: ^1.1.0
         version: 1.1.0(@types/react@18.3.12)(react@18.3.1)
-      '@rnr-method/accordion':
+      '@method-inc/accordion':
         specifier: workspace:*
         version: link:../../packages/accordion
-      '@rnr-method/alert-dialog':
+      '@method-inc/alert-dialog':
         specifier: workspace:*
         version: link:../../packages/alert-dialog
-      '@rnr-method/aspect-ratio':
+      '@method-inc/aspect-ratio':
         specifier: workspace:*
         version: link:../../packages/aspect-ratio
-      '@rnr-method/avatar':
+      '@method-inc/avatar':
         specifier: workspace:*
         version: link:../../packages/avatar
-      '@rnr-method/checkbox':
+      '@method-inc/checkbox':
         specifier: workspace:*
         version: link:../../packages/checkbox
-      '@rnr-method/collapsible':
+      '@method-inc/collapsible':
         specifier: workspace:*
         version: link:../../packages/collapsible
-      '@rnr-method/context-menu':
+      '@method-inc/context-menu':
         specifier: workspace:*
         version: link:../../packages/context-menu
-      '@rnr-method/dialog':
+      '@method-inc/dialog':
         specifier: workspace:*
         version: link:../../packages/dialog
-      '@rnr-method/dropdown-menu':
+      '@method-inc/dropdown-menu':
         specifier: workspace:*
         version: link:../../packages/dropdown-menu
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@rnr-method/hover-card':
+      '@method-inc/hover-card':
         specifier: workspace:*
         version: link:../../packages/hover-card
-      '@rnr-method/label':
+      '@method-inc/label':
         specifier: workspace:*
         version: link:../../packages/label
-      '@rnr-method/menubar':
+      '@method-inc/menubar':
         specifier: workspace:*
         version: link:../../packages/menubar
-      '@rnr-method/navigation-menu':
+      '@method-inc/navigation-menu':
         specifier: workspace:*
         version: link:../../packages/navigation-menu
-      '@rnr-method/popover':
+      '@method-inc/popover':
         specifier: workspace:*
         version: link:../../packages/popover
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../../packages/portal
-      '@rnr-method/progress':
+      '@method-inc/progress':
         specifier: workspace:*
         version: link:../../packages/progress
-      '@rnr-method/radio-group':
+      '@method-inc/radio-group':
         specifier: workspace:*
         version: link:../../packages/radio-group
-      '@rnr-method/select':
+      '@method-inc/select':
         specifier: workspace:*
         version: link:../../packages/select
-      '@rnr-method/separator':
+      '@method-inc/separator':
         specifier: workspace:*
         version: link:../../packages/separator
-      '@rnr-method/slider':
+      '@method-inc/slider':
         specifier: workspace:*
         version: link:../../packages/slider
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../../packages/slot
-      '@rnr-method/switch':
+      '@method-inc/switch':
         specifier: workspace:*
         version: link:../../packages/switch
-      '@rnr-method/table':
+      '@method-inc/table':
         specifier: workspace:*
         version: link:../../packages/table
-      '@rnr-method/tabs':
+      '@method-inc/tabs':
         specifier: workspace:*
         version: link:../../packages/tabs
-      '@rnr-method/toast':
+      '@method-inc/toast':
         specifier: workspace:*
         version: link:../../packages/toast
-      '@rnr-method/toggle':
+      '@method-inc/toggle':
         specifier: workspace:*
         version: link:../../packages/toggle
-      '@rnr-method/toggle-group':
+      '@method-inc/toggle-group':
         specifier: workspace:*
         version: link:../../packages/toggle-group
-      '@rnr-method/toolbar':
+      '@method-inc/toolbar':
         specifier: workspace:*
         version: link:../../packages/toolbar
-      '@rnr-method/tooltip':
+      '@method-inc/tooltip':
         specifier: workspace:*
         version: link:../../packages/tooltip
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../../packages/types
-      '@rnr-method/utils':
+      '@method-inc/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@types/react':
@@ -196,97 +196,97 @@ importers:
       '@react-navigation/native':
         specifier: ^7.0.0
         version: 7.0.4(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
-      '@rnr-method/accordion':
+      '@method-inc/accordion':
         specifier: workspace:*
         version: link:../../packages/accordion
-      '@rnr-method/alert-dialog':
+      '@method-inc/alert-dialog':
         specifier: workspace:*
         version: link:../../packages/alert-dialog
-      '@rnr-method/aspect-ratio':
+      '@method-inc/aspect-ratio':
         specifier: workspace:*
         version: link:../../packages/aspect-ratio
-      '@rnr-method/avatar':
+      '@method-inc/avatar':
         specifier: workspace:*
         version: link:../../packages/avatar
-      '@rnr-method/checkbox':
+      '@method-inc/checkbox':
         specifier: workspace:*
         version: link:../../packages/checkbox
-      '@rnr-method/collapsible':
+      '@method-inc/collapsible':
         specifier: workspace:*
         version: link:../../packages/collapsible
-      '@rnr-method/context-menu':
+      '@method-inc/context-menu':
         specifier: workspace:*
         version: link:../../packages/context-menu
-      '@rnr-method/dialog':
+      '@method-inc/dialog':
         specifier: workspace:*
         version: link:../../packages/dialog
-      '@rnr-method/dropdown-menu':
+      '@method-inc/dropdown-menu':
         specifier: workspace:*
         version: link:../../packages/dropdown-menu
-      '@rnr-method/hover-card':
+      '@method-inc/hover-card':
         specifier: workspace:*
         version: link:../../packages/hover-card
-      '@rnr-method/input':
+      '@method-inc/input':
         specifier: workspace:*
         version: link:../../packages/input
-      '@rnr-method/label':
+      '@method-inc/label':
         specifier: workspace:*
         version: link:../../packages/label
-      '@rnr-method/menubar':
+      '@method-inc/menubar':
         specifier: workspace:*
         version: link:../../packages/menubar
-      '@rnr-method/navigation-menu':
+      '@method-inc/navigation-menu':
         specifier: workspace:*
         version: link:../../packages/navigation-menu
-      '@rnr-method/popover':
+      '@method-inc/popover':
         specifier: workspace:*
         version: link:../../packages/popover
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../../packages/portal
-      '@rnr-method/progress':
+      '@method-inc/progress':
         specifier: workspace:*
         version: link:../../packages/progress
-      '@rnr-method/radio-group':
+      '@method-inc/radio-group':
         specifier: workspace:*
         version: link:../../packages/radio-group
-      '@rnr-method/select':
+      '@method-inc/select':
         specifier: workspace:*
         version: link:../../packages/select
-      '@rnr-method/separator':
+      '@method-inc/separator':
         specifier: workspace:*
         version: link:../../packages/separator
-      '@rnr-method/slider':
+      '@method-inc/slider':
         specifier: workspace:*
         version: link:../../packages/slider
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../../packages/slot
-      '@rnr-method/switch':
+      '@method-inc/switch':
         specifier: workspace:*
         version: link:../../packages/switch
-      '@rnr-method/table':
+      '@method-inc/table':
         specifier: workspace:*
         version: link:../../packages/table
-      '@rnr-method/tabs':
+      '@method-inc/tabs':
         specifier: workspace:*
         version: link:../../packages/tabs
-      '@rnr-method/toast':
+      '@method-inc/toast':
         specifier: workspace:*
         version: link:../../packages/toast
-      '@rnr-method/toggle':
+      '@method-inc/toggle':
         specifier: workspace:*
         version: link:../../packages/toggle
-      '@rnr-method/toggle-group':
+      '@method-inc/toggle-group':
         specifier: workspace:*
         version: link:../../packages/toggle-group
-      '@rnr-method/toolbar':
+      '@method-inc/toolbar':
         specifier: workspace:*
         version: link:../../packages/toolbar
-      '@rnr-method/tooltip':
+      '@method-inc/tooltip':
         specifier: workspace:*
         version: link:../../packages/tooltip
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../../packages/types
       class-variance-authority:
@@ -377,94 +377,94 @@ importers:
       '@react-navigation/native':
         specifier: ^7.0.0
         version: 7.0.4(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
-      '@rnr-method/accordion':
+      '@method-inc/accordion':
         specifier: workspace:*
         version: link:../../packages/accordion
-      '@rnr-method/alert-dialog':
+      '@method-inc/alert-dialog':
         specifier: workspace:*
         version: link:../../packages/alert-dialog
-      '@rnr-method/aspect-ratio':
+      '@method-inc/aspect-ratio':
         specifier: workspace:*
         version: link:../../packages/aspect-ratio
-      '@rnr-method/avatar':
+      '@method-inc/avatar':
         specifier: workspace:*
         version: link:../../packages/avatar
-      '@rnr-method/checkbox':
+      '@method-inc/checkbox':
         specifier: workspace:*
         version: link:../../packages/checkbox
-      '@rnr-method/collapsible':
+      '@method-inc/collapsible':
         specifier: workspace:*
         version: link:../../packages/collapsible
-      '@rnr-method/context-menu':
+      '@method-inc/context-menu':
         specifier: workspace:*
         version: link:../../packages/context-menu
-      '@rnr-method/dialog':
+      '@method-inc/dialog':
         specifier: workspace:*
         version: link:../../packages/dialog
-      '@rnr-method/dropdown-menu':
+      '@method-inc/dropdown-menu':
         specifier: workspace:*
         version: link:../../packages/dropdown-menu
-      '@rnr-method/hover-card':
+      '@method-inc/hover-card':
         specifier: workspace:*
         version: link:../../packages/hover-card
-      '@rnr-method/label':
+      '@method-inc/label':
         specifier: workspace:*
         version: link:../../packages/label
-      '@rnr-method/menubar':
+      '@method-inc/menubar':
         specifier: workspace:*
         version: link:../../packages/menubar
-      '@rnr-method/navigation-menu':
+      '@method-inc/navigation-menu':
         specifier: workspace:*
         version: link:../../packages/navigation-menu
-      '@rnr-method/popover':
+      '@method-inc/popover':
         specifier: workspace:*
         version: link:../../packages/popover
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../../packages/portal
-      '@rnr-method/progress':
+      '@method-inc/progress':
         specifier: workspace:*
         version: link:../../packages/progress
-      '@rnr-method/radio-group':
+      '@method-inc/radio-group':
         specifier: workspace:*
         version: link:../../packages/radio-group
-      '@rnr-method/select':
+      '@method-inc/select':
         specifier: workspace:*
         version: link:../../packages/select
-      '@rnr-method/separator':
+      '@method-inc/separator':
         specifier: workspace:*
         version: link:../../packages/separator
-      '@rnr-method/slider':
+      '@method-inc/slider':
         specifier: workspace:*
         version: link:../../packages/slider
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../../packages/slot
-      '@rnr-method/switch':
+      '@method-inc/switch':
         specifier: workspace:*
         version: link:../../packages/switch
-      '@rnr-method/table':
+      '@method-inc/table':
         specifier: workspace:*
         version: link:../../packages/table
-      '@rnr-method/tabs':
+      '@method-inc/tabs':
         specifier: workspace:*
         version: link:../../packages/tabs
-      '@rnr-method/toast':
+      '@method-inc/toast':
         specifier: workspace:*
         version: link:../../packages/toast
-      '@rnr-method/toggle':
+      '@method-inc/toggle':
         specifier: workspace:*
         version: link:../../packages/toggle
-      '@rnr-method/toggle-group':
+      '@method-inc/toggle-group':
         specifier: workspace:*
         version: link:../../packages/toggle-group
-      '@rnr-method/toolbar':
+      '@method-inc/toolbar':
         specifier: workspace:*
         version: link:../../packages/toolbar
-      '@rnr-method/tooltip':
+      '@method-inc/tooltip':
         specifier: workspace:*
         version: link:../../packages/tooltip
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../../packages/types
       expo:
@@ -531,97 +531,97 @@ importers:
 
   apps/nextjs-nativewind:
     dependencies:
-      '@rnr-method/accordion':
+      '@method-inc/accordion':
         specifier: workspace:*
         version: link:../../packages/accordion
-      '@rnr-method/alert-dialog':
+      '@method-inc/alert-dialog':
         specifier: workspace:*
         version: link:../../packages/alert-dialog
-      '@rnr-method/aspect-ratio':
+      '@method-inc/aspect-ratio':
         specifier: workspace:*
         version: link:../../packages/aspect-ratio
-      '@rnr-method/avatar':
+      '@method-inc/avatar':
         specifier: workspace:*
         version: link:../../packages/avatar
-      '@rnr-method/checkbox':
+      '@method-inc/checkbox':
         specifier: workspace:*
         version: link:../../packages/checkbox
-      '@rnr-method/collapsible':
+      '@method-inc/collapsible':
         specifier: workspace:*
         version: link:../../packages/collapsible
-      '@rnr-method/context-menu':
+      '@method-inc/context-menu':
         specifier: workspace:*
         version: link:../../packages/context-menu
-      '@rnr-method/dialog':
+      '@method-inc/dialog':
         specifier: workspace:*
         version: link:../../packages/dialog
-      '@rnr-method/dropdown-menu':
+      '@method-inc/dropdown-menu':
         specifier: workspace:*
         version: link:../../packages/dropdown-menu
-      '@rnr-method/hover-card':
+      '@method-inc/hover-card':
         specifier: workspace:*
         version: link:../../packages/hover-card
-      '@rnr-method/input':
+      '@method-inc/input':
         specifier: workspace:*
         version: link:../../packages/input
-      '@rnr-method/label':
+      '@method-inc/label':
         specifier: workspace:*
         version: link:../../packages/label
-      '@rnr-method/menubar':
+      '@method-inc/menubar':
         specifier: workspace:*
         version: link:../../packages/menubar
-      '@rnr-method/navigation-menu':
+      '@method-inc/navigation-menu':
         specifier: workspace:*
         version: link:../../packages/navigation-menu
-      '@rnr-method/popover':
+      '@method-inc/popover':
         specifier: workspace:*
         version: link:../../packages/popover
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../../packages/portal
-      '@rnr-method/progress':
+      '@method-inc/progress':
         specifier: workspace:*
         version: link:../../packages/progress
-      '@rnr-method/radio-group':
+      '@method-inc/radio-group':
         specifier: workspace:*
         version: link:../../packages/radio-group
-      '@rnr-method/select':
+      '@method-inc/select':
         specifier: workspace:*
         version: link:../../packages/select
-      '@rnr-method/separator':
+      '@method-inc/separator':
         specifier: workspace:*
         version: link:../../packages/separator
-      '@rnr-method/slider':
+      '@method-inc/slider':
         specifier: workspace:*
         version: link:../../packages/slider
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../../packages/slot
-      '@rnr-method/switch':
+      '@method-inc/switch':
         specifier: workspace:*
         version: link:../../packages/switch
-      '@rnr-method/table':
+      '@method-inc/table':
         specifier: workspace:*
         version: link:../../packages/table
-      '@rnr-method/tabs':
+      '@method-inc/tabs':
         specifier: workspace:*
         version: link:../../packages/tabs
-      '@rnr-method/toast':
+      '@method-inc/toast':
         specifier: workspace:*
         version: link:../../packages/toast
-      '@rnr-method/toggle':
+      '@method-inc/toggle':
         specifier: workspace:*
         version: link:../../packages/toggle
-      '@rnr-method/toggle-group':
+      '@method-inc/toggle-group':
         specifier: workspace:*
         version: link:../../packages/toggle-group
-      '@rnr-method/toolbar':
+      '@method-inc/toolbar':
         specifier: workspace:*
         version: link:../../packages/toolbar
-      '@rnr-method/tooltip':
+      '@method-inc/tooltip':
         specifier: workspace:*
         version: link:../../packages/tooltip
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../../packages/types
       class-variance-authority:
@@ -685,13 +685,13 @@ importers:
       '@radix-ui/react-accordion':
         specifier: ^1.2.0
         version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -719,20 +719,20 @@ importers:
       '@radix-ui/react-alert-dialog':
         specifier: ^1.1.1
         version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -753,10 +753,10 @@ importers:
 
   packages/aspect-ratio:
     dependencies:
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -781,13 +781,13 @@ importers:
 
   packages/avatar:
     dependencies:
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -815,13 +815,13 @@ importers:
       '@radix-ui/react-checkbox':
         specifier: ^1.1.1
         version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -849,13 +849,13 @@ importers:
       '@radix-ui/react-collapsible':
         specifier: ^1.1.0
         version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -883,23 +883,23 @@ importers:
       '@radix-ui/react-context-menu':
         specifier: ^2.2.1
         version: 2.2.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
-      '@rnr-method/utils':
+      '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -923,20 +923,20 @@ importers:
       '@radix-ui/react-dialog':
         specifier: ^1.1.1
         version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -960,23 +960,23 @@ importers:
       '@radix-ui/react-dropdown-menu':
         specifier: ^2.1.1
         version: 2.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
-      '@rnr-method/utils':
+      '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -997,7 +997,7 @@ importers:
 
   packages/hooks:
     dependencies:
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1025,23 +1025,23 @@ importers:
       '@radix-ui/react-hover-card':
         specifier: ^1.1.1
         version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/popover':
+      '@method-inc/popover':
         specifier: workspace:*
         version: link:../popover
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -1065,13 +1065,13 @@ importers:
       '@radix-ui/react-label':
         specifier: ^2.1.0
         version: 2.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
-      '@rnr-method/utils':
+      '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
       class-variance-authority:
@@ -1123,10 +1123,10 @@ importers:
       '@radix-ui/react-label':
         specifier: ^2.1.0
         version: 2.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1154,23 +1154,23 @@ importers:
       '@radix-ui/react-menubar':
         specifier: ^1.1.1
         version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
-      '@rnr-method/utils':
+      '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -1194,23 +1194,23 @@ importers:
       '@radix-ui/react-navigation-menu':
         specifier: ^1.2.0
         version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
-      '@rnr-method/utils':
+      '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -1234,20 +1234,20 @@ importers:
       '@radix-ui/react-popover':
         specifier: ^1.1.1
         version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -1296,10 +1296,10 @@ importers:
       '@radix-ui/react-progress':
         specifier: ^1.1.0
         version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1327,10 +1327,10 @@ importers:
       '@radix-ui/react-radio-group':
         specifier: ^1.2.0
         version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1358,20 +1358,20 @@ importers:
       '@radix-ui/react-select':
         specifier: ^2.1.1
         version: 2.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':
@@ -1395,10 +1395,10 @@ importers:
       '@radix-ui/react-separator':
         specifier: ^1.1.0
         version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1426,10 +1426,10 @@ importers:
       '@radix-ui/react-slider':
         specifier: ^1.2.0
         version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1479,10 +1479,10 @@ importers:
       '@radix-ui/react-switch':
         specifier: ^1.1.0
         version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1507,10 +1507,10 @@ importers:
 
   packages/table:
     dependencies:
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1538,10 +1538,10 @@ importers:
       '@radix-ui/react-tabs':
         specifier: ^1.1.0
         version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1566,10 +1566,10 @@ importers:
 
   packages/toast:
     dependencies:
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1597,10 +1597,10 @@ importers:
       '@radix-ui/react-toggle':
         specifier: ^1.1.0
         version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
@@ -1628,13 +1628,13 @@ importers:
       '@radix-ui/react-toggle-group':
         specifier: ^1.1.0
         version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
-      '@rnr-method/utils':
+      '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
       react-native-web:
@@ -1662,13 +1662,13 @@ importers:
       '@radix-ui/react-toolbar':
         specifier: ^1.1.0
         version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
-      '@rnr-method/utils':
+      '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
       react-native-web:
@@ -1696,20 +1696,20 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: ^1.1.2
         version: 1.1.4(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@rnr-method/hooks':
+      '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@rnr-method/slot':
+      '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
-      '@rnr-method/types':
+      '@method-inc/types':
         specifier: workspace:*
         version: link:../types
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@rnr-method/portal':
+      '@method-inc/portal':
         specifier: workspace:*
         version: link:../portal
       '@tsconfig/react-native':

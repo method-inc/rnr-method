@@ -1,6 +1,6 @@
 import * as ToggleGroup from '@radix-ui/react-toggle-group';
-import * as Slot from '@rnr-method/slot';
-import { ToggleGroupUtils } from '@rnr-method/utils';
+import * as Slot from '@method-inc/slot';
+import { ToggleGroupUtils } from '@method-inc/utils';
 import * as React from 'react';
 import { Pressable, View, type GestureResponderEvent } from 'react-native';
 import type { ItemProps, ItemRef, RootProps, RootRef } from './types';

@@ -1,4 +1,4 @@
-import * as AccordionPrimitive from '@rnr-method/accordion';
+import * as AccordionPrimitive from '@method-inc/accordion';
 import * as React from 'react';
 import { Platform, Pressable, View } from 'react-native';
 import Animated, {

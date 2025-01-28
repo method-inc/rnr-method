@@ -1,5 +1,5 @@
-import * as Slot from '@rnr-method/slot';
-import type { SlottableViewProps, ViewRef } from '@rnr-method/types';
+import * as Slot from '@method-inc/slot';
+import type { SlottableViewProps, ViewRef } from '@method-inc/types';
 import * as React from 'react';
 import { View, type ViewStyle } from 'react-native';
 

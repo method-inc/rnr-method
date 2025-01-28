@@ -3,7 +3,7 @@ import {
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@rnr-method/types';
+} from '@method-inc/types';
 
 type SingleRootProps = {
   type: 'single';

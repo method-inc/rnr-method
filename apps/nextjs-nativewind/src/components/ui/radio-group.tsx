@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { View } from 'react-native';
-import * as RadioGroupPrimitive from '@rnr-method/radio-group';
+import * as RadioGroupPrimitive from '@method-inc/radio-group';
 import { cn } from '~/lib/utils';
 
 const RadioGroup = React.forwardRef<

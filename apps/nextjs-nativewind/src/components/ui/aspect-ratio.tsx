@@ -1,6 +1,6 @@
 'use client';
 
-import * as AspectRatioPrimitive from '@rnr-method/aspect-ratio';
+import * as AspectRatioPrimitive from '@method-inc/aspect-ratio';
 
 const AspectRatio = AspectRatioPrimitive.Root;
 
