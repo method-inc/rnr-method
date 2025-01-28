@@ -1,5 +1,18 @@
 {
   "name": "@rnr-method/monorepo",
+  "license": "MIT",
+  "author": "Method",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/method-inc/rnr-method.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/method-inc/rnr-method/issues"
+  },
+  "homepage": "https://github.com/method-inc/rnr-method#readme",
   "private": true,
   "scripts": {
     "dev": "turbo dev --concurrency=34",
