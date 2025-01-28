@@ -3,7 +3,19 @@
   "version": "1.1.0",
   "description": "Primitive portal",
   "license": "MIT",
-  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "Method",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/method-inc/rnr-method.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/method-inc/rnr-method/issues"
+  },
+  "homepage": "https://github.com/method-inc/rnr-method#readme",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
