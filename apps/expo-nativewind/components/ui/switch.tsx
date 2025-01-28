@@ -1,4 +1,4 @@
-import * as SwitchPrimitives from '@rnr-method/switch';
+import * as SwitchPrimitives from '@method-inc/switch';
 import * as React from 'react';
 import { Platform } from 'react-native';
 import Animated, {

@@ -1,5 +1,5 @@
-import { useIsomorphicLayoutEffect } from '@rnr-method/hooks';
-import * as Slot from '@rnr-method/slot';
+import { useIsomorphicLayoutEffect } from '@method-inc/hooks';
+import * as Slot from '@method-inc/slot';
 import * as React from 'react';
 import {
   type ImageErrorEventData,

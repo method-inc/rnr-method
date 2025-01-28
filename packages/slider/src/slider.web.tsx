@@ -1,5 +1,5 @@
 import * as Slider from '@radix-ui/react-slider';
-import * as Slot from '@rnr-method/slot';
+import * as Slot from '@method-inc/slot';
 import * as React from 'react';
 import { View } from 'react-native';
 import type {

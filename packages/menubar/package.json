@@ -1,5 +1,5 @@
 {
-  "name": "@rnr-method/menubar",
+  "name": "@method-inc/menubar",
   "version": "1.1.0",
   "description": "Primitive menubar",
   "license": "MIT",
@@ -45,13 +45,13 @@
   },
   "dependencies": {
     "@radix-ui/react-menubar": "^1.1.1",
-    "@rnr-method/hooks": "workspace:*",
-    "@rnr-method/utils": "workspace:*",
-    "@rnr-method/slot": "workspace:*",
-    "@rnr-method/types": "workspace:*"
+    "@method-inc/hooks": "workspace:*",
+    "@method-inc/utils": "workspace:*",
+    "@method-inc/slot": "workspace:*",
+    "@method-inc/types": "workspace:*"
   },
   "devDependencies": {
-    "@rnr-method/portal": "workspace:*",
+    "@method-inc/portal": "workspace:*",
     "@tsconfig/react-native": "^1.0.1",
     "@types/react": "~18.3.12",
     "react": "18.3.1",
@@ -59,7 +59,7 @@
     "tsup": "^8.1.0"
   },
   "peerDependencies": {
-    "@rnr-method/portal": "*",
+    "@method-inc/portal": "*",
     "react": "*",
     "react-native": "*",
     "react-native-web": "*"

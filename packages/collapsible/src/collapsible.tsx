@@ -1,5 +1,5 @@
-import { useControllableState } from '@rnr-method/hooks';
-import * as Slot from '@rnr-method/slot';
+import { useControllableState } from '@method-inc/hooks';
+import * as Slot from '@method-inc/slot';
 import * as React from 'react';
 import { Pressable, View, type GestureResponderEvent } from 'react-native';
 import type {

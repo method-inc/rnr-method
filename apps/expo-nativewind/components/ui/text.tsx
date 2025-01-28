@@ -1,5 +1,5 @@
-import * as Slot from '@rnr-method/slot';
-import type { SlottableTextProps, TextRef } from '@rnr-method/types';
+import * as Slot from '@method-inc/slot';
+import type { SlottableTextProps, TextRef } from '@method-inc/types';
 import * as React from 'react';
 import { Text as RNText } from 'react-native';
 import { cn } from '~/lib/utils';

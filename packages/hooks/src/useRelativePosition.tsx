@@ -1,4 +1,4 @@
-import type { Insets } from '@rnr-method/types';
+import type { Insets } from '@method-inc/types';
 import * as React from 'react';
 import { Dimensions, type LayoutRectangle, type ScaledSize, type ViewStyle } from 'react-native';
 

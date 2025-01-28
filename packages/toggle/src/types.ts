@@ -1,4 +1,4 @@
-import type { PressableRef, SlottablePressableProps } from '@rnr-method/types';
+import type { PressableRef, SlottablePressableProps } from '@method-inc/types';
 
 type RootProps = SlottablePressableProps & {
   pressed: boolean;

@@ -11,14 +11,14 @@ export default defineConfig({
   integrations: [
     starlight({
       favicon: '/favicon.png',
-      title: 'rnr-method',
-      description: 'Documentation for rnr-method',
+      title: 'method-inc',
+      description: 'Documentation for method-inc',
       components: {
         ThemeSelect: './src/components/ThemeSelect.astro',
         Head: './src/components/Head.astro',
       },
       social: {
-        github: 'https://github.com/roninoss/rnr-method',
+        github: 'https://github.com/roninoss/method-inc',
       },
       sidebar: [
         {

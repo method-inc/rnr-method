@@ -1,4 +1,4 @@
-import * as CollapsiblePrimitive from '@rnr-method/collapsible';
+import * as CollapsiblePrimitive from '@method-inc/collapsible';
 
 const Collapsible = CollapsiblePrimitive.Root;
 

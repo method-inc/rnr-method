@@ -1,4 +1,4 @@
-import * as TooltipPrimitive from '@rnr-method/tooltip';
+import * as TooltipPrimitive from '@method-inc/tooltip';
 import * as React from 'react';
 import { Platform, StyleSheet } from 'react-native';
 import Animated, { FadeIn, FadeOut } from 'react-native-reanimated';

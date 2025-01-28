@@ -1,4 +1,4 @@
-import * as MenubarPrimitive from '@rnr-method/menubar';
+import * as MenubarPrimitive from '@method-inc/menubar';
 import * as React from 'react';
 import { Platform, Text, View } from 'react-native';
 import { Check } from '~/lib/icons/Check';
