@@ -2,8 +2,9 @@
 
 import * as React from 'react';
 import * as InputPrimitive from '@method-inc/input';
+import { TextInputProps } from 'react-native';
 
-const Input = () => {
+const Input = (props: TextInputProps) => {
   const [value, setValue] = React.useState('');
 
   const onChangeText = (text: string) => {
