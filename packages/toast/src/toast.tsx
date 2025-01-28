@@ -1,4 +1,4 @@
-import * as Slot from '@rnr-method/slot';
+import * as Slot from '@method-inc/slot';
 import * as React from 'react';
 import { Pressable, Text, View, type GestureResponderEvent } from 'react-native';
 import type {

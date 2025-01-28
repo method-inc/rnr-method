@@ -1,7 +1,7 @@
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
-import { useAugmentedRef, useIsomorphicLayoutEffect } from '@rnr-method/hooks';
-import * as Slot from '@rnr-method/slot';
-import { EmptyGestureResponderEvent } from '@rnr-method/utils';
+import { useAugmentedRef, useIsomorphicLayoutEffect } from '@method-inc/hooks';
+import * as Slot from '@method-inc/slot';
+import { EmptyGestureResponderEvent } from '@method-inc/utils';
 import * as React from 'react';
 import { GestureResponderEvent, Pressable, View } from 'react-native';
 import type {

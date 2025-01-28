@@ -1,4 +1,4 @@
-import type { SlottableViewProps, ViewRef } from '@rnr-method/types';
+import type { SlottableViewProps, ViewRef } from '@method-inc/types';
 
 type RootProps = SlottableViewProps & {
   orientation?: 'horizontal' | 'vertical';

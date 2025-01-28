@@ -1,5 +1,5 @@
 {
-  "name": "@rnr-method/radio-group",
+  "name": "@method-inc/radio-group",
   "version": "1.1.0",
   "description": "Primitive radio group",
   "license": "MIT",
@@ -45,8 +45,8 @@
   },
   "dependencies": {
     "@radix-ui/react-radio-group": "^1.2.0",
-    "@rnr-method/slot": "workspace:*",
-    "@rnr-method/types": "workspace:*"
+    "@method-inc/slot": "workspace:*",
+    "@method-inc/types": "workspace:*"
   },
   "devDependencies": {
     "@tsconfig/react-native": "^1.0.1",

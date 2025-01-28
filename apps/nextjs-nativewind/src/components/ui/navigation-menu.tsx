@@ -1,6 +1,6 @@
 'use client';
 
-import * as NavigationMenuPrimitive from '@rnr-method/navigation-menu';
+import * as NavigationMenuPrimitive from '@method-inc/navigation-menu';
 import { cva } from 'class-variance-authority';
 import * as React from 'react';
 import { Platform, View } from 'react-native';

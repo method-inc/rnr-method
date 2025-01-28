@@ -1,10 +1,10 @@
-import * as Slot from '@rnr-method/slot';
+import * as Slot from '@method-inc/slot';
 import type {
   PressableRef,
   SlottablePressableProps,
   SlottableViewProps,
   ViewRef,
-} from '@rnr-method/types';
+} from '@method-inc/types';
 import * as React from 'react';
 import { Pressable, View } from 'react-native';
 

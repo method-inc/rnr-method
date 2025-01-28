@@ -1,5 +1,5 @@
 {
-  "name": "@rnr-method/select",
+  "name": "@method-inc/select",
   "version": "1.1.0",
   "description": "Primitive select",
   "license": "MIT",
@@ -45,12 +45,12 @@
   },
   "dependencies": {
     "@radix-ui/react-select": "^2.1.1",
-    "@rnr-method/hooks": "workspace:*",
-    "@rnr-method/slot": "workspace:*",
-    "@rnr-method/types": "workspace:*"
+    "@method-inc/hooks": "workspace:*",
+    "@method-inc/slot": "workspace:*",
+    "@method-inc/types": "workspace:*"
   },
   "devDependencies": {
-    "@rnr-method/portal": "workspace:*",
+    "@method-inc/portal": "workspace:*",
     "@tsconfig/react-native": "^1.0.1",
     "@types/react": "~18.3.12",
     "react": "18.3.1",
@@ -58,7 +58,7 @@
     "tsup": "^8.1.0"
   },
   "peerDependencies": {
-    "@rnr-method/portal": "*",
+    "@method-inc/portal": "*",
     "react": "*",
     "react-native": "*",
     "react-native-web": "*"

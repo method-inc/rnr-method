@@ -9,10 +9,10 @@ description: Shows an indicator representing the advancement status of a task.
 import Code from '@/components/ManualCode.astro';
 import { LinkButton } from '@/components/react/LinkButton';
 import { Aside, Tabs, TabItem } from '@astrojs/starlight/components';
-import importedNativeCode from '@/../node_modules/@rnr-method/progress/src/progress.tsx?raw';
-import importedWebCode from '@/../node_modules/@rnr-method/progress/src/progress.web.tsx?raw';
-import importedTypesCode from '@/../node_modules/@rnr-method/progress/src/types.ts?raw';
-import importedIndexCode from '@/../node_modules/@rnr-method/progress/src/index.ts?raw';
+import importedNativeCode from '@/../node_modules/@method-inc/progress/src/progress.tsx?raw';
+import importedWebCode from '@/../node_modules/@method-inc/progress/src/progress.web.tsx?raw';
+import importedTypesCode from '@/../node_modules/@method-inc/progress/src/types.ts?raw';
+import importedIndexCode from '@/../node_modules/@method-inc/progress/src/index.ts?raw';
 
 Shows an indicator representing the advancement status of a task.
 
@@ -24,7 +24,7 @@ Shows an indicator representing the advancement status of a task.
   Install the component via your command line.
 
     ```bash
-    npx expo install @rnr-method/progress
+    npx expo install @method-inc/progress
     ```
 
   </TabItem>
@@ -76,7 +76,7 @@ Shows an indicator representing the advancement status of a task.
 ## Usage
 
 ```tsx
-import * as ProgressPrimitive from '@rnr-method/progress';
+import * as ProgressPrimitive from '@method-inc/progress';
 
 function Example() {
   return (

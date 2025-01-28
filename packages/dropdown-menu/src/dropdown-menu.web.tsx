@@ -3,9 +3,9 @@ import {
   useAugmentedRef,
   useControllableState,
   useIsomorphicLayoutEffect,
-} from '@rnr-method/hooks';
-import * as Slot from '@rnr-method/slot';
-import { EmptyGestureResponderEvent } from '@rnr-method/utils';
+} from '@method-inc/hooks';
+import * as Slot from '@method-inc/slot';
+import { EmptyGestureResponderEvent } from '@method-inc/utils';
 import * as React from 'react';
 import { GestureResponderEvent, Pressable, Text, View } from 'react-native';
 import type {

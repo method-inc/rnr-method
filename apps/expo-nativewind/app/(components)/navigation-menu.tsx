@@ -1,4 +1,4 @@
-import { TextRef } from '@rnr-method/types';
+import { TextRef } from '@method-inc/types';
 import { useNavigation } from 'expo-router';
 import * as React from 'react';
 import { Platform, Pressable, StyleSheet, View } from 'react-native';

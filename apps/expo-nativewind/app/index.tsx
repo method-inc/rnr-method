@@ -1,4 +1,4 @@
-import { Input } from '@rnr-method/input';
+import { Input } from '@method-inc/input';
 import { Link } from 'expo-router';
 import * as React from 'react';
 import { FlatList, View } from 'react-native';
