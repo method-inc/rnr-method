@@ -3,12 +3,15 @@
   "main": "index.js",
   "version": "1.0.0",
   "scripts": {
+    "start": "expo start -c",
     "dev": "expo start -c --ios",
     "dev:web": "expo start -c --web",
     "dev:android": "expo start -c --android",
     "android": "expo start -c --android",
     "ios": "expo start -c --ios",
     "web": "expo start -c --web",
+    "build": "expo export --output-dir ./build --platform all",
+    "eas-build-post-install": "pnpm run -w build:expo-nativewind",
     "clean": "rm -rf .expo node_modules"
   },
   "dependencies": {

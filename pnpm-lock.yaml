@@ -40,15 +40,6 @@ importers:
       '@astrojs/vercel':
         specifier: ^7.3.4
         version: 7.8.2(astro@4.16.14(@types/node@20.17.7)(lightningcss@1.28.1)(rollup@4.27.4)(terser@5.36.0)(typescript@5.7.2))(next@14.2.14(@babel/core@7.26.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
-      '@radix-ui/react-collapsible':
-        specifier: ^1.1.0
-        version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@radix-ui/react-dropdown-menu':
-        specifier: ^2.1.1
-        version: 2.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@radix-ui/react-slot':
-        specifier: ^1.1.0
-        version: 1.1.0(@types/react@18.3.12)(react@18.3.1)
       '@method-inc/accordion':
         specifier: workspace:*
         version: link:../../packages/accordion
@@ -145,6 +136,15 @@ importers:
       '@method-inc/utils':
         specifier: workspace:*
         version: link:../../packages/utils
+      '@radix-ui/react-collapsible':
+        specifier: ^1.1.0
+        version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-dropdown-menu':
+        specifier: ^2.1.1
+        version: 2.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-slot':
+        specifier: ^1.1.0
+        version: 1.1.0(@types/react@18.3.12)(react@18.3.1)
       '@types/react':
         specifier: ~18.3.12
         version: 18.3.12
@@ -190,12 +190,6 @@ importers:
 
   apps/expo-nativewind:
     dependencies:
-      '@react-native-async-storage/async-storage':
-        specifier: 1.23.1
-        version: 1.23.1(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))
-      '@react-navigation/native':
-        specifier: ^7.0.0
-        version: 7.0.4(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
       '@method-inc/accordion':
         specifier: workspace:*
         version: link:../../packages/accordion
@@ -289,6 +283,12 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../../packages/types
+      '@react-native-async-storage/async-storage':
+        specifier: 1.23.1
+        version: 1.23.1(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))
+      '@react-navigation/native':
+        specifier: ^7.0.0
+        version: 7.0.4(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -371,12 +371,6 @@ importers:
 
   apps/expo-stylesheet:
     dependencies:
-      '@react-native-async-storage/async-storage':
-        specifier: 1.23.1
-        version: 1.23.1(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))
-      '@react-navigation/native':
-        specifier: ^7.0.0
-        version: 7.0.4(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
       '@method-inc/accordion':
         specifier: workspace:*
         version: link:../../packages/accordion
@@ -467,6 +461,12 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../../packages/types
+      '@react-native-async-storage/async-storage':
+        specifier: 1.23.1
+        version: 1.23.1(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))
+      '@react-navigation/native':
+        specifier: ^7.0.0
+        version: 7.0.4(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
       expo:
         specifier: ^52.0.11
         version: 52.0.11(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@expo/metro-runtime@4.0.0(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)))(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
@@ -682,9 +682,6 @@ importers:
 
   packages/accordion:
     dependencies:
-      '@radix-ui/react-accordion':
-        specifier: ^1.2.0
-        version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -694,6 +691,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-accordion':
+        specifier: ^1.2.0
+        version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -716,9 +716,6 @@ importers:
 
   packages/alert-dialog:
     dependencies:
-      '@radix-ui/react-alert-dialog':
-        specifier: ^1.1.1
-        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -728,6 +725,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-alert-dialog':
+        specifier: ^1.1.1
+        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -812,9 +812,6 @@ importers:
 
   packages/checkbox:
     dependencies:
-      '@radix-ui/react-checkbox':
-        specifier: ^1.1.1
-        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -824,6 +821,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-checkbox':
+        specifier: ^1.1.1
+        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -846,9 +846,6 @@ importers:
 
   packages/collapsible:
     dependencies:
-      '@radix-ui/react-collapsible':
-        specifier: ^1.1.0
-        version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -858,6 +855,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-collapsible':
+        specifier: ^1.1.0
+        version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -880,9 +880,6 @@ importers:
 
   packages/context-menu:
     dependencies:
-      '@radix-ui/react-context-menu':
-        specifier: ^2.2.1
-        version: 2.2.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -895,6 +892,9 @@ importers:
       '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
+      '@radix-ui/react-context-menu':
+        specifier: ^2.2.1
+        version: 2.2.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -920,9 +920,6 @@ importers:
 
   packages/dialog:
     dependencies:
-      '@radix-ui/react-dialog':
-        specifier: ^1.1.1
-        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -932,6 +929,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-dialog':
+        specifier: ^1.1.1
+        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -957,9 +957,6 @@ importers:
 
   packages/dropdown-menu:
     dependencies:
-      '@radix-ui/react-dropdown-menu':
-        specifier: ^2.1.1
-        version: 2.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -972,6 +969,9 @@ importers:
       '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
+      '@radix-ui/react-dropdown-menu':
+        specifier: ^2.1.1
+        version: 2.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1022,9 +1022,6 @@ importers:
 
   packages/hover-card:
     dependencies:
-      '@radix-ui/react-hover-card':
-        specifier: ^1.1.1
-        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -1037,6 +1034,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-hover-card':
+        specifier: ^1.1.1
+        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1062,9 +1062,6 @@ importers:
 
   packages/input:
     dependencies:
-      '@radix-ui/react-label':
-        specifier: ^2.1.0
-        version: 2.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
@@ -1074,6 +1071,9 @@ importers:
       '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
+      '@radix-ui/react-label':
+        specifier: ^2.1.0
+        version: 2.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -1120,15 +1120,15 @@ importers:
 
   packages/label:
     dependencies:
-      '@radix-ui/react-label':
-        specifier: ^2.1.0
-        version: 2.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-label':
+        specifier: ^2.1.0
+        version: 2.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1151,9 +1151,6 @@ importers:
 
   packages/menubar:
     dependencies:
-      '@radix-ui/react-menubar':
-        specifier: ^1.1.1
-        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -1166,6 +1163,9 @@ importers:
       '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
+      '@radix-ui/react-menubar':
+        specifier: ^1.1.1
+        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1191,9 +1191,6 @@ importers:
 
   packages/navigation-menu:
     dependencies:
-      '@radix-ui/react-navigation-menu':
-        specifier: ^1.2.0
-        version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -1206,6 +1203,9 @@ importers:
       '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
+      '@radix-ui/react-navigation-menu':
+        specifier: ^1.2.0
+        version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1231,9 +1231,6 @@ importers:
 
   packages/popover:
     dependencies:
-      '@radix-ui/react-popover':
-        specifier: ^1.1.1
-        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -1243,6 +1240,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-popover':
+        specifier: ^1.1.1
+        version: 1.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1293,15 +1293,15 @@ importers:
 
   packages/progress:
     dependencies:
-      '@radix-ui/react-progress':
-        specifier: ^1.1.0
-        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-progress':
+        specifier: ^1.1.0
+        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1324,15 +1324,15 @@ importers:
 
   packages/radio-group:
     dependencies:
-      '@radix-ui/react-radio-group':
-        specifier: ^1.2.0
-        version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-radio-group':
+        specifier: ^1.2.0
+        version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1355,9 +1355,6 @@ importers:
 
   packages/select:
     dependencies:
-      '@radix-ui/react-select':
-        specifier: ^2.1.1
-        version: 2.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -1367,6 +1364,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-select':
+        specifier: ^2.1.1
+        version: 2.1.2(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1392,15 +1392,15 @@ importers:
 
   packages/separator:
     dependencies:
-      '@radix-ui/react-separator':
-        specifier: ^1.1.0
-        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-separator':
+        specifier: ^1.1.0
+        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1423,15 +1423,15 @@ importers:
 
   packages/slider:
     dependencies:
-      '@radix-ui/react-slider':
-        specifier: ^1.2.0
-        version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-slider':
+        specifier: ^1.2.0
+        version: 1.2.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1476,15 +1476,15 @@ importers:
 
   packages/switch:
     dependencies:
-      '@radix-ui/react-switch':
-        specifier: ^1.1.0
-        version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-switch':
+        specifier: ^1.1.0
+        version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1535,15 +1535,15 @@ importers:
 
   packages/tabs:
     dependencies:
-      '@radix-ui/react-tabs':
-        specifier: ^1.1.0
-        version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-tabs':
+        specifier: ^1.1.0
+        version: 1.1.1(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1594,15 +1594,15 @@ importers:
 
   packages/toggle:
     dependencies:
-      '@radix-ui/react-toggle':
-        specifier: ^1.1.0
-        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-toggle':
+        specifier: ^1.1.0
+        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1625,9 +1625,6 @@ importers:
 
   packages/toggle-group:
     dependencies:
-      '@radix-ui/react-toggle-group':
-        specifier: ^1.1.0
-        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
@@ -1637,6 +1634,9 @@ importers:
       '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
+      '@radix-ui/react-toggle-group':
+        specifier: ^1.1.0
+        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1659,9 +1659,6 @@ importers:
 
   packages/toolbar:
     dependencies:
-      '@radix-ui/react-toolbar':
-        specifier: ^1.1.0
-        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/slot':
         specifier: workspace:*
         version: link:../slot
@@ -1671,6 +1668,9 @@ importers:
       '@method-inc/utils':
         specifier: workspace:*
         version: link:../utils
+      '@radix-ui/react-toolbar':
+        specifier: ^1.1.0
+        version: 1.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1693,9 +1693,6 @@ importers:
 
   packages/tooltip:
     dependencies:
-      '@radix-ui/react-tooltip':
-        specifier: ^1.1.2
-        version: 1.1.4(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@method-inc/hooks':
         specifier: workspace:*
         version: link:../hooks
@@ -1705,6 +1702,9 @@ importers:
       '@method-inc/types':
         specifier: workspace:*
         version: link:../types
+      '@radix-ui/react-tooltip':
+        specifier: ^1.1.2
+        version: 1.1.4(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-native-web:
         specifier: '*'
         version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
