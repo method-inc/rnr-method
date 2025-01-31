@@ -4,15 +4,25 @@ Universal Style agnostic and accessible react-native components
 
 ## Unstyled Nature
 
-RN Primitives provides unstyled components, offering a high degree of customization freedom. By default, the components come without any predefined styles, allowing developers to seamlessly match their app's aesthetics.
+Primitives provides unstyled components, offering a high degree of customization freedom. By default, the components come without any predefined styles, allowing developers to seamlessly match their app's aesthetics.
 
 ## Accessibility
 
-Accessibility is a significant focus within RN Primitives. We are dedicated to ensuring our components align with accessibility standards. Our ongoing efforts involve designing and testing components with appropriate labels, roles, and behaviors, aiming to provide an inclusive user experience.
+Accessibility is a significant focus within Primitives. We are dedicated to ensuring our components align with accessibility standards. Our ongoing efforts involve designing and testing components with appropriate labels, roles, and behaviors, aiming to provide an inclusive user experience.
 
-### Getting started for contributors
 
-1. Fork, clone, and install the dependencies with `pnpm`
+## Pacakges / Libraries
+ - React (React Native).
+ - NextJs for demo and testing.
+ - Expo for demo and testing.
+ - react-native-web.
+ - radix-ui.
+ - TailwindCSS.
+ - Nativewind.
+ - Tsup for building TypeScript library.
+ - Turborepo to manage & scaling monorepos libraries.
+
+1. Install the dependencies with `pnpm`
 
 ```bash
 pnpm i
