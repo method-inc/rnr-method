@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import * as InputPrimitive from '@method-inc/input';
+import * as InputPrimitive from '@method-inc/components/input';
 import { TextInputProps } from 'react-native';
 
 const Input = (props: TextInputProps) => {
