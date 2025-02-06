@@ -1,5 +1,5 @@
 {
-  "name": "@method-inc/components/input",
+  "name": "@method-inc/components",
   "version": "1.1.2",
   "description": "Method input",
   "license": "MIT",
@@ -25,11 +25,11 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
-    "./dist/input": {
-      "import": "./dist/input.mjs",
-      "require": "./dist/input.js",
-      "types": "./dist/input.d.ts",
-      "default": "./dist/input.js"
+    "./input": {
+      "import": "./dist/input/input.mjs",
+      "require": "./dist/input/input.js",
+      "types": "./dist/input/input.d.ts",
+      "default": "./dist/input/input.js"
     }
   },
   "files": [

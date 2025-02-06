@@ -549,9 +549,9 @@ importers:
       '@method-inc/collapsible':
         specifier: workspace:*
         version: link:../../packages/collapsible
-      '@method-inc/components/input':
+      '@method-inc/components':
         specifier: workspace:*
-        version: link:../../packages/components/input
+        version: link:../../packages/components
       '@method-inc/context-menu':
         specifier: workspace:*
         version: link:../../packages/context-menu
@@ -878,17 +878,17 @@ importers:
         specifier: ^8.1.0
         version: 8.3.5(jiti@1.21.6)(postcss@8.4.49)(typescript@5.7.2)(yaml@2.6.1)
 
-  packages/components/input:
+  packages/components:
     dependencies:
       '@method-inc/slot':
         specifier: workspace:*
-        version: link:../../slot
+        version: link:../slot
       '@method-inc/types':
         specifier: workspace:*
-        version: link:../../types
+        version: link:../types
       '@method-inc/utils':
         specifier: workspace:*
-        version: link:../../utils
+        version: link:../utils
       '@radix-ui/react-label':
         specifier: ^2.1.0
         version: 2.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)

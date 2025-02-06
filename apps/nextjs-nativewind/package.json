@@ -40,7 +40,7 @@
     "@method-inc/toolbar": "workspace:*",
     "@method-inc/tooltip": "workspace:*",
     "@method-inc/types": "workspace:*",
-    "@method-inc/components/input": "workspace:*",
+    "@method-inc/components": "workspace:*",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react-native": "^0.451.0",

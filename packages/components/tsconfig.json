@@ -3,7 +3,7 @@
   "jsxImportSource": "nativewind",
   "jsx": "preserve",
   "include": [
-    "./src/**/*",
+    "./",
     "nativewind-env.d.ts"
   ],
   "compilerOptions": {

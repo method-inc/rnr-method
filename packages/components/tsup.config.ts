@@ -1,13 +1,13 @@
 import { defineConfig, Options } from 'tsup';
 
 export default defineConfig((options: Options) => ({
-  entry: ['src/index.ts', 'src/input.tsx'],
+  entry: ['index.ts', './input/input.tsx'],
   banner: {
     js: "'use client'",
   },
   clean: true,
   format: ['cjs', 'esm'],
-  external: ['react', './input'],
+  external: ['react', './commponents'],
   dts: true,
   ...options,
   esbuildOptions(options) {

@@ -10,11 +10,11 @@
     "dev:docs": "turbo dev --filter=./apps/docs",
     "lint": "turbo lint",
     "test": "turbo test",
-    "build": "turbo build --filter=./packages/**",
+    "build": "turbo build --filter=./packages/*",
     "build:docs": "turbo build --filter=./apps/docs",
     "build:expo-nativewind": "turbo build --filter=\"...{./apps/expo-nativewind}\"",
     "publish-all:primitives:next": "turbo pub:next --filter=./packages/* --concurrency=34",
-    "publish-all:primitives": "turbo pub:release --filter=./packages/** --concurrency=34",
+    "publish-all:primitives": "turbo pub:release --filter=./packages/* --concurrency=34",
     "clean": "turbo clean && rm -rf .turbo node_modules"
   },
   "devDependencies": {
