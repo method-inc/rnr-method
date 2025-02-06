@@ -549,6 +549,9 @@ importers:
       '@method-inc/collapsible':
         specifier: workspace:*
         version: link:../../packages/collapsible
+      '@method-inc/components/input':
+        specifier: workspace:*
+        version: link:../../components/input
       '@method-inc/context-menu':
         specifier: workspace:*
         version: link:../../packages/context-menu
@@ -561,9 +564,6 @@ importers:
       '@method-inc/hover-card':
         specifier: workspace:*
         version: link:../../packages/hover-card
-      '@method-inc/input':
-        specifier: workspace:*
-        version: link:../../packages/input
       '@method-inc/label':
         specifier: workspace:*
         version: link:../../packages/label
@@ -679,6 +679,64 @@ importers:
       typescript:
         specifier: ^5
         version: 5.7.2
+
+  components/input:
+    dependencies:
+      '@method-inc/slot':
+        specifier: workspace:*
+        version: link:../../packages/slot
+      '@method-inc/types':
+        specifier: workspace:*
+        version: link:../../packages/types
+      '@method-inc/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
+      '@radix-ui/react-label':
+        specifier: ^2.1.0
+        version: 2.1.0(@types/react-dom@18.3.1)(@types/react@18.3.12)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      class-variance-authority:
+        specifier: ^0.7.0
+        version: 0.7.0
+      clsx:
+        specifier: ^2.0.0
+        version: 2.1.1
+      lucide-react:
+        specifier: ^0.279.0
+        version: 0.279.0(react@18.3.1)
+      nativewind:
+        specifier: ^4.1.23
+        version: 4.1.23(react-native-reanimated@3.16.2(@babel/core@7.26.0)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)(tailwindcss@3.3.3)
+      react-native-web:
+        specifier: '*'
+        version: 0.19.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+    devDependencies:
+      '@tsconfig/react-native':
+        specifier: ^1.0.1
+        version: 1.0.5
+      '@types/react':
+        specifier: ~18.3.12
+        version: 18.3.12
+      '@types/react-native-web':
+        specifier: ^0.19.0
+        version: 0.19.0(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(react@18.3.1)
+      autoprefixer:
+        specifier: 10.4.15
+        version: 10.4.15(postcss@8.4.30)
+      postcss:
+        specifier: 8.4.30
+        version: 8.4.30
+      react:
+        specifier: 18.3.1
+        version: 18.3.1
+      react-native:
+        specifier: 0.76.3
+        version: 0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(react@18.3.1)
+      tailwindcss:
+        specifier: 3.3.3
+        version: 3.3.3
+      tsup:
+        specifier: ^8.1.0
+        version: 8.3.5(jiti@1.21.6)(postcss@8.4.30)(typescript@5.7.2)(yaml@2.6.1)
 
   packages/accordion:
     dependencies:

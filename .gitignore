@@ -4,6 +4,8 @@ apps/*/build
 apps/*/dist
 packages/*/build
 packages/*/dist
+components/*/build
+components/*/dist
 
 # Turborepo
 .turbo
