@@ -13,8 +13,10 @@
     "build": "turbo build --filter=./packages/*",
     "build:docs": "turbo build --filter=./apps/docs",
     "build:expo-nativewind": "turbo build --filter=\"...{./apps/expo-nativewind}\"",
+    "build:components": "turbo build --filter=./apps/nextjs-nativewind",
     "publish-all:primitives:next": "turbo pub:next --filter=./packages/* --concurrency=34",
     "publish-all:primitives": "turbo pub:release --filter=./packages/* --concurrency=34",
+    "publish-all:components": "turbo pub:release --filter=./apps/nextjs-nativewind",
     "clean": "turbo clean && rm -rf .turbo node_modules"
   },
   "devDependencies": {
