@@ -70,9 +70,7 @@ interface PositionedContentProps {
   /**
    * Platform: WEB ONLY
    */
-  onInteractOutside?: (
-    event: PointerDownOutsideEvent | FocusOutsideEvent
-  ) => void;
+  onInteractOutside?: (event: PointerDownOutsideEvent | FocusOutsideEvent) => void;
   /**
    * Platform: WEB ONLY
    */
@@ -91,6 +89,20 @@ interface ForceMountable {
   forceMount?: true | undefined;
 }
 
+type Only<T, U> = {
+  [P in keyof T]: T[P];
+} & {
+  [P in keyof U]?: never;
+};
+
+type Either<T, U> = Only<T, U> | Only<U, T>;
+
+type Simplify<T> = T extends infer S ? { [K in keyof S]: S[K] } : never;
+type NoneOf<T> = Simplify<{ [K in keyof T]?: never }>;
+type OneOfOrNothing<T> =
+  | NoneOf<T>
+  | { [K in keyof T]: Simplify<Pick<T, K> & NoneOf<Omit<T, K>>> }[keyof T];
+
 export type {
   ComponentPropsWithAsChild,
   ForceMountable,
@@ -102,4 +114,6 @@ export type {
   SlottableViewProps,
   TextRef,
   ViewRef,
+  Either,
+  OneOfOrNothing,
 };
