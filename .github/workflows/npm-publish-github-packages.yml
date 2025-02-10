@@ -49,6 +49,8 @@ jobs:
       - run: pnpm install
       - run: pnpm run build
       - run: pnpm run publish-all:primitives
+      - run: pnpm run build:components
+      - run: pnpm run publish-all:components
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
